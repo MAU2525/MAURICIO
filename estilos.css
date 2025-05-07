@@ -1,0 +1,156 @@
+body{
+    background-image: url(imagenes/fondo.jpg);
+}
+.logo-redondo{
+    border-radius: 400px;
+    height: 150px;
+}
+#cabecera{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80%;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+
+}
+
+h1, h2{
+    text-decoration: underline;
+    align-items: center;
+}
+#definiciones{
+    border: 3px solid black;
+    padding: 20px;
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between 5px;
+    gap: 90px; 
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+#definiciones > div{
+    width: 60%;
+    border: 3px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto  ;
+    text-align: center;
+
+}
+.hyper.text{
+    background-color: rgb(222, 144, 116);
+}
+#definiciones h3{
+    text-align: center;
+    color: white
+}
+.Cascading{
+    background-color: rgb(116, 168, 241);
+}
+.JavaScript{
+    background-color: greenyellow;
+}
+.hyper.text h3{
+    background-color: orangered;
+}
+.Cascading h3{
+    background-color: blue;
+}
+.JavaScript h3{
+    background-color: green;
+}
+#contenedor2{
+    border: 4px solid black;
+    padding: 20px;
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between 5px;
+    gap: 90px; 
+    width: 60%;
+    margin: 0 auto;
+}
+#contenedor2 h3{
+    text-align: center;
+    color: white;
+}
+#contenedor2 >  div{
+    width: 60%;
+    border: 3px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+}
+.html{
+    background-color: rgb(222, 144, 116);
+}
+.css{
+    background-color: rgb(116, 168, 241);
+}
+.js{
+    background-color: greenyellow;
+}
+.html h3{
+    background-color: orangered;
+}
+.css h3{
+    background-color: blue;
+}
+.js h3{
+    background-color: green;
+}
+
+.imagen-casa{
+    display: block;
+    box-shadow: grey 10px 10px 20px;
+    margin: auto;
+
+}
+body{
+    border-style: dotted;
+}
+.resumen{
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px black;
+    box-sizing: border-box;
+    margin-top: 80px;
+    font-size: 24px;
+}
+#final{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 20;
+    border-top: 3px solid black;
+}
+h4{
+    text-decoration: underline;
+    font-size: 30px;
+    line-height: 2;
+    right: 50px;
+    font-style: italic;
+}
+h5,h2,h1{
+    text-decoration: underline;
+    font-size: 30px;
+    font-style: italic;
+
+}
+p1{
+    text-align: center;
+    font-size: 25px;
+    align-items: center;
+}
